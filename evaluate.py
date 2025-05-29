@@ -25,8 +25,8 @@ def evaluate_agent(num_trials=50, max_depth=4):
 
             moves += 1
 
-            # print(f"Move {moves}: {move.upper()}")
-            # print_board(game.board)
+            print(f"Move {moves}: {move.upper()}")
+            print_board(game.board)
 
         end_time = time.time()
         result = {
